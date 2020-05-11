@@ -6,5 +6,3 @@ SELECT MAX(SEQUENCE#) FROM v\\$log_history;
 EXIT;
 EOF`
 echo $SEQUENCE
-
-CONNECT system/in39821@edbpva66_stdby
